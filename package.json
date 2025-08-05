@@ -1,0 +1,17 @@
+{
+  "name": "lead-chrome-extension",
+  "description": "Lead or URL chrome extension that can copy current window URL to the list and save it in local storage",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build && copy manifest.json dist\\ && copy icon.png dist\\",
+    "preview": "vite preview"
+
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
