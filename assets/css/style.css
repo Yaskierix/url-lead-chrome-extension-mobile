@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  min-width: 400px;
+  max-width: 302px;
+  margin: 0 auto;
 }
 
 input {
@@ -14,7 +15,17 @@ input {
   outline: 0;
 }
 
-button {
+label {
+  color: #5f9341;
+  font-weight: bold;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.buttons-container button {
   padding: 10px 20px;
   color: #fff;
   font-weight: bold;
@@ -22,8 +33,9 @@ button {
   text-align: center;
   background-color: #5f9341;
   border: 1px solid #5f9341;
+  width: 100%;
 }
-button:nth-of-type(2) {
+.buttons-container button:nth-of-type(2) {
   background: #fff;
   color: #5f9341;
 }/*# sourceMappingURL=style.css.map */
