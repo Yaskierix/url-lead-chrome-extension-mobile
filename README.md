@@ -1,1 +1,1 @@
-Chrome extension modfied to progressive web app that can save the URL's to the Firebase database by simply clicking button, and render it to the list. Styling with SCSS. 
+Chrome extension modfied to run as progressive web app that can save the URL's to the Firebase database by simply clicking button, and render it to the list. Styling with SCSS. 
